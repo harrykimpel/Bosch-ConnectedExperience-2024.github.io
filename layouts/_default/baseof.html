@@ -12,14 +12,22 @@
     {{ .Scratch.Set "class" .Type -}}
     {{ .Scratch.Add "class" " list" -}}
   {{ end -}}
-  <body class="{{ .Scratch.Get "class" }}"{{ if eq .Site.Params.options.scrollSpy true }} data-bs-spy="scroll" data-bs-target="#toc" data-bs-root-margin="0px 0px -90%" data-bs-smooth-scroll="true" tabindex="0"{{ end }}>
+  <body class="{{ .Scratch.Get "class" }}" {{ if eq .Site.Params.options.scrollSpy true }} data-bs-spy="scroll" data-bs-target="#toc" data-bs-root-margin="0px 0px -90%" data-bs-smooth-scroll="true" tabindex="0"{{ end }}>
     {{ partial "header/header.html" . }}
     <div class="e-container">
-    {{ if or (eq .Kind "page") (eq .Kind "section") -}}
-    {{ $currentSection := .CurrentSection }}    
       <article>
         <h1>{{ .Title }}</h1>
       </article>
+      {{ with .Params.Lead }}
+      <article>
+        <p>{{ . }}</p>
+      </article>
+      {{end}}
+    </div>
+    <div class="e-container">
+    {{ if or (eq .Kind "page") (eq .Kind "section") -}}
+    {{ $currentSection := .CurrentSection }}
+      
       {{ with .Resources.GetMatch "image" }}
       <figure class="a-image">
         <div class="a-image__ratioWrapper" style="padding-top: 21%">
@@ -42,7 +50,9 @@
     </div>
 
     <div class="e-container">
+      <article>
       {{ block "main" . }}{{ end }}
+      </article>
     </div>
     {{ block "sidebar-prefooter" . }}{{ end }}
     {{ block "sidebar-footer" . }}{{ end }}

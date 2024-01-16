@@ -1,18 +1,19 @@
 ---
-title : "Bosch IoT Campus Metaverse Hackathon"
+title : "Bosch Connected Experience 2024"
 description: "Hackathon"
-lead: "Welcome to the Bosch Digital VR Hackathon 2023."
+lead: "Welcome to the Bosch Connected Experience 2024. Here you'll get a brief overview of the topics we're addressing this year."
 date: 2023-08-21T10:00:00+02:00
 lastmod: 2023-08-21T10:00:00+02:00
 draft: false
 images: []
 resources:
 - name: "image"
-  src: "cover.jpg"
+  src: "generative_ai.svg"
 ---
 
-Get ready to ignite your creativity, unleash your coding skills, and collaborate with fellow innovators for an unforgettable hacking experience. We are thrilled to have you join us for this exciting journey into the world of the Metaverse and AI.
+Find all the information you need in the sections below:
 
+<!-- 
 {{< columns amount="5" >}}
   {{< profile name="Get Inspired" >}}
     What's Metaverse and AI? Need some ideas and inspiration?
@@ -30,3 +31,4 @@ Get ready to ignite your creativity, unleash your coding skills, and collaborate
     Need help with anything?
   {{</ profile >}}
 {{</ columns >}}
+-->

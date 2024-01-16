@@ -1,4 +1,4 @@
-baseurl = "https://IoT-Campus-Metaverse-Hackathon.github.io/"
+baseurl = "https://Bosch-ConnectedExperience-2024.github.io"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
