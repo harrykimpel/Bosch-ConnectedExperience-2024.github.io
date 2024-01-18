@@ -1,10 +1,6 @@
-# [[main]]
-#   name = "Inspire"
-#   url = "/inspire/"
-#   weight = 10
 
 # [[main]]
-#   name = "Friends of Hack"
+#   name = "Partners"
 #   url = "/partners/"
 #   weight = 20
 
@@ -15,29 +11,14 @@
 #   url = "/arsenal/"
 
 # [[main]]
-#   name = "Event Agenda"
+#   name = "Area Plan"
 #   weight = 40
-#   url = "/agenda"
+#   url = "/area_plan/"
 
 # [[main]]
 #   name = "Get Help"
 #   weight = 50
 #   url = "/help/"
-
-# [[inspire]]
-#   name="Industrial Metaverse"
-#   weight = 10
-#   url = "/inspire/industry"
-
-# [[inspire]]
-#   name="Metaverse in Retail"
-#   weight = 20
-#   url = "/inspire/retail"
-
-# [[inspire]]
-#   name="Metaverse & AI"
-#   weight = 30
-#   url = "/inspire/ai"
 
 # [[main]]
 #   identifier = "hardware"
@@ -55,16 +36,16 @@
 
 [[footer]]
   name = "Corporate information"
-  url = "https://www.bosch-digital.com/imprint/"
+  url = "https://bosch-connected-world.com/imprint/"
 
 [[footer]]
   name = "Legal notice"
-  url = "https://www.bosch-digital.com/legal-notice/"
+  url = "https://bosch-connected-world.com/legal-notice/"
 
 [[footer]]
   name = "Data protection notice"
-  url = "https://www.bosch-digital.com/data-protection-notice/"
+  url = "https://bosch-connected-world.com/data-protection-notice/"
 
 [[footer]]
   name = "Privacy Settings"
-  url = "https://www.bosch-digital.com/#show-privacy-settings"
+  url = "https://bosch-connected-world.com/hackathon/bcx-event-promotion-kit/#"
