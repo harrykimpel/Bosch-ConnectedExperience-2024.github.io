@@ -10,10 +10,10 @@
 #   weight = 30
 #   url = "/arsenal/"
 
-# [[main]]
-#   name = "Area Plan"
-#   weight = 40
-#   url = "/area_plan/"
+[[main]]
+  name = "Area Plan"
+  weight = 40
+  url = "/area_plan/"
 
 # [[main]]
 #   name = "Get Help"
