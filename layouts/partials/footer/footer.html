@@ -9,46 +9,19 @@
       <ul class="o-footer__links">
       </ul>
       <div class="o-footer__share">
+        {{ range .Site.Menus.socials }}
         <button
           type="button"
           class="a-button a-button--integrated -without-label"
           aria-label="share button"
+          onclick="window.open('{{ .URL }}', '_blank').focus();"
         >
           <i
-            class="a-icon a-button__icon boschicon-bosch-ic-facebook"
-            title="Find us on Facebook"
+            class="a-icon a-button__icon boschicon-bosch-ic-{{ lower .Name }}"
+            title="{{ .Name }}"
           ></i>
         </button>
-        <button
-          type="button"
-          class="a-button a-button--integrated -without-label"
-          aria-label="share button"
-        >
-          <i
-            class="a-icon a-button__icon boschicon-bosch-ic-youtube"
-            title="Find us on YouTube"
-          ></i>
-        </button>
-        <button
-          type="button"
-          class="a-button a-button--integrated -without-label"
-          aria-label="share button"
-        >
-          <i
-            class="a-icon a-button__icon boschicon-bosch-ic-linkedin"
-            title="Find us on LinkedIn"
-          ></i>
-        </button>
-        <button
-          type="button"
-          class="a-button a-button--integrated -without-label"
-          aria-label="share button"
-        >
-          <i
-            class="a-icon a-button__icon boschicon-bosch-ic-twitter"
-            title="Find us on Twitter"
-          ></i>
-        </button>
+        {{ end }}
       </div>
     </div>
     <hr class="a-divider" />
@@ -63,7 +36,7 @@
         {{ end }}
       </ul>
       <div class="o-footer__copyright">
-        &copy; Robert Bosch GmbH 2024, all rights reserved
+        &copy; {{ .Site.Params.copyRight }}
       </div>
     </div>
   </div>
