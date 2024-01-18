@@ -6,5 +6,5 @@ draft: false
 images: []
 resources:
 - name: "image"
-  src: "area_plan.jpg"
+  src: "area_plan.png"
 ---
