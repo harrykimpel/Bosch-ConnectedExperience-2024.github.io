@@ -8,7 +8,7 @@ draft: false
 images: []
 resources:
 - name: "image"
-  src: "generative_ai.svg"
+  src: "240115_BCX24_Snippet_7.png"
 ---
 
 Find all the information you need in the sections below:
