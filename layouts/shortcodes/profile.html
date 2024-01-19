@@ -20,6 +20,6 @@
         {{ . }}
       </h3>
       {{ end }}
-      <p class="-size-m" style="margin:0">{{ .Inner }}</p>
+      <p class="-size-m" style="margin:0">{{ .Inner | markdownify }}</p>
     </div>
 </div>

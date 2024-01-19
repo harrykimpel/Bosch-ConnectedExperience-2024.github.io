@@ -1,7 +1,7 @@
 ---
 title : "Bosch Connected Experience 2024"
 description: "Hackathon"
-lead: "Welcome to the Bosch Connected Experience 2024. Here you'll get a brief overview of the topics we're addressing this year."
+lead: "Bosch ConnectedExperience (BCX) is one of Europe’s largest AI and IoT hackathons and takes place February 26-28, 2024 in Berlin. Domain-specific hack challenges feature various software and hardware stacks from Bosch and their ecosystem partners. The event brings together fellow backend and frontend developers, product owners, product managers, UX experts, and innovators from  customers, partners, and start-ups. Over the course of three days, teams work together on the UX, the UI, and the code to create early prototypes and produce quick, tangible results. "
 date: 2023-08-21T10:00:00+02:00
 lastmod: 2023-08-21T10:00:00+02:00
 draft: false
@@ -11,24 +11,15 @@ resources:
   src: "240115_BCX24_Snippet_7.png"
 ---
 
-Find all the information you need in the sections below:
+{{< columns amount="2" >}}
+  {{< profile name="digital.Industry" >}}
+    In the digital.industry hack track, participants will have the opportunity to develop innovative solutions for the manufacturing sector.
+    
+    The challenges will focus on leveraging automation, connectivity, and visualization technologies and platforms to optimize production processes and improve efficiency or come up with creative business cases.
+  {{</ profile >}}
+  {{< profile name="digital.auto & mobility" >}}
+    In the digital.auto & mobility hack track, participants can create cutting-edge solutions tailored to the automotive sector. 
 
-<!-- 
-{{< columns amount="5" >}}
-  {{< profile name="Get Inspired" >}}
-    What's Metaverse and AI? Need some ideas and inspiration?
-  {{</ profile >}}
-  {{< profile name="Partners" >}}
-    We've invited some friends over and they brought along some cool technology
-  {{</ profile >}}
-  {{< profile name="Hack Arsenal" >}}
-    Our library of cool hardware and software available to you
-  {{</ profile >}}
-  {{< profile name="Agenda" >}}
-    The Low-down over the next 3 days
-  {{</ profile >}}
-  {{< profile name="Get Help" >}}
-    Need help with anything?
+    The challenges will focus on bringing a new experience to the driver: personalized welcome, virtual vehicle applications, controlling offroad vehicles and many more. Put your ideas on the road.
   {{</ profile >}}
 {{</ columns >}}
--->

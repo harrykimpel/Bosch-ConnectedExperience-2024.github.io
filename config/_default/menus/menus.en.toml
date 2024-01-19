@@ -15,10 +15,10 @@
   weight = 40
   url = "/area_plan/"
 
-# [[main]]
-#   name = "Get Help"
-#   weight = 50
-#   url = "/help/"
+[[main]]
+  name = "The Team"
+  weight = 50
+  url = "/team/"
 
 # [[main]]
 #   identifier = "hardware"
