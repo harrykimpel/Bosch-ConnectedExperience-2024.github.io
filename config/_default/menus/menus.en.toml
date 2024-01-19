@@ -10,10 +10,10 @@
 #   weight = 30
 #   url = "/arsenal/"
 
-# [[main]]
-#   name = "Area Plan"
-#   weight = 40
-#   url = "/area_plan/"
+[[main]]
+  name = "Area Plan"
+  weight = 40
+  url = "/area_plan/"
 
 # [[main]]
 #   name = "Get Help"
@@ -33,6 +33,23 @@
 #   weight = 20
 #   url = "/arsenal/software"
 #   parent = "arsenal"
+
+
+[[socials]]
+  name = "Twitter"
+  url = "https://twitter.com/BCWevent"
+
+[[socials]]
+  name = "LinkedIn"
+  url = "https://www.linkedin.com/company/bosch-connected-world/"
+
+[[socials]]
+name = "YouTube"
+url = "https://youtu.be/8iSBWTmbGMM?si=jT0RTcff9MawCnGH"
+
+[[socials]]
+name = "Facebook"
+url = "https://www.facebook.com/BoschGlobal"
 
 [[footer]]
   name = "Corporate information"
