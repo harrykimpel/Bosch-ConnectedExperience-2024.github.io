@@ -1,14 +1,14 @@
 
 # [[main]]
-#   name = "Partners"
-#   url = "/partners/"
-#   weight = 20
-
-# [[main]]
 #   identifier = "arsenal"
 #   name = "Hack Arsenal"
 #   weight = 30
 #   url = "/arsenal/"
+
+[[main]]
+   name = "Partners"
+   url = "/partners/"
+   weight = 20
 
 [[main]]
   name = "Area Plan"
