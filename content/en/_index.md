@@ -13,13 +13,13 @@ resources:
 
 {{< columns amount="2" >}}
   {{< profile name="digital.Industry" >}}
-    In the digital.industry hack track, participants will have the opportunity to develop innovative solutions for the manufacturing sector.
+  In the digital.industry hack track, participants will have the opportunity to develop innovative solutions for the manufacturing sector.
     
-    The challenges will focus on leveraging automation, connectivity, and visualization technologies and platforms to optimize production processes and improve efficiency or come up with creative business cases.
+  The challenges will focus on leveraging automation, connectivity, and visualization technologies and platforms to optimize production processes and improve efficiency or come up with creative business cases.
   {{</ profile >}}
   {{< profile name="digital.auto & mobility" >}}
-    In the digital.auto & mobility hack track, participants can create cutting-edge solutions tailored to the automotive sector. 
+  In the digital.auto & mobility hack track, participants can create cutting-edge solutions tailored to the automotive sector. 
 
-    The challenges will focus on bringing a new experience to the driver: personalized welcome, virtual vehicle applications, controlling offroad vehicles and many more. Put your ideas on the road.
+  The challenges will focus on bringing a new experience to the driver: personalized welcome, virtual vehicle applications, controlling offroad vehicles and many more. Put your ideas on the road.
   {{</ profile >}}
 {{</ columns >}}
