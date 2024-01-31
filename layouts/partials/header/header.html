@@ -27,15 +27,14 @@
             ></i>
             <span class="a-button__label">Login</span>
           </button>
-          <button type="button" class="a-button a-button--integrated" style="display: none;">
+          <button type="button" class="a-button a-button--integrated" id="theme-switcher">
             <i
-              class="a-icon a-button__icon boschicon-bosch-ic-chat"
-              title="Lorem Ipsum"
+              class="a-icon a-button__icon boschicon-bosch-ic-sun-moon"
+              title="Switch Theme"
             ></i>
-            <span class="a-button__label">Contact</span>
           </button>
         </div>
-        <div class="o-header__search" style="display: none;">
+        <div class="o-header__search">
           <form class="m-search-form" autocomplete="off">
             <div class="a-text-field a-text-field--search">
               <input type="search" id="search-null" placeholder="Search" />
@@ -128,12 +127,12 @@
   <div class="e-container">
     <div class="o-header__meta">
       <ol class="o-header__breadcrumbs">
-        <li style="display: none;">
+        {{- range .Ancestors.Reverse }}
+        <li>
           <div class="a-link -icon">
-            <a href="/" target="_self">
-              <span>News and</span>
+            <a href="{{ .RelPermalink }}" target="_self">
+              <span>{{ .Title }}</span>
               <span>
-                Stories
                 <i
                   class="a-icon ui-ic-nosafe-lr-right-small"
                   title="nosafe-lr-right-small"
@@ -142,35 +141,9 @@
             </a>
           </div>
         </li>
-        <li style="display: none;">
-          <div class="a-link -icon">
-            <a href="/" target="_self">
-              <span>Internet of</span>
-              <span>
-                Things
-                <i
-                  class="a-icon ui-ic-nosafe-lr-right-small"
-                  title="nosafe-lr-right-small"
-                ></i>
-              </span>
-            </a>
-          </div>
-        </li>
-        <li style="display: none;">
-          <div class="a-link -icon">
-            <a href="/" target="_self">
-              <span>Page</span>
-              <span>
-                Name
-                <i
-                  class="a-icon ui-ic-nosafe-lr-right-small"
-                  title="nosafe-lr-right-small"
-                ></i>
-              </span>
-            </a>
-          </div>
-        </li>
+        {{- end }}
       </ol>
+      <span class="o-header__subbrand">{{ .Site.Params.SubBrand }}</span>
     </div>
   </div>
   <div class="o-header__navigation-container">

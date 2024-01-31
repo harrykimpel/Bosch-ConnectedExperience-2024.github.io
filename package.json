@@ -41,6 +41,7 @@
     "@babel/cli": "^7.18",
     "@babel/core": "^7.18",
     "@babel/preset-env": "^7.18",
+    "@bosch/frontend.kit-npm": "^3.6.0",
     "@fullhuman/postcss-purgecss": "^5.0",
     "@hyas/images": "^2.0.3",
     "auto-changelog": "^2.4",
