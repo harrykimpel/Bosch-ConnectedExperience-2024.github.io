@@ -8,115 +8,60 @@ images: []
 resources:
 ---
 
+Register your team here. We would love to see a short description of your Hack, the Partners which you work with and an AI generated team logo.
+Also provide the prompt and the model which you used to create this logo.
+
 <div class="o-form">
   <form aria-label="Example form description">
-    <h3>Your inquiry</h3>
-    <h4>Contact data</h4>
+    <h4>The Team in a Nutshell</h4>
     <div class="m-form-field">
       <div class="a-text-field">
-        <label for="teamName">Team Name</label>
+        <label for="teamName">Team Name*</label>
         <input type="text" id="teamName" />
       </div>
     </div>
-    </div>
-    <div class="o-form__row">
-      <div class="m-form-field">
-        <div class="a-text-field">
-          <label for="street">Street</label>
-          <input type="text" id="street" />
-        </div>
-      </div>
-      <div class="m-form-field -quarter">
-        <div class="a-text-field">
-          <label for="nr">No</label>
-          <input type="text" id="nr" />
-        </div>
-      </div>
-    </div>
-    <div class="o-form__row">
-      <div class="m-form-field -half">
-        <div class="a-text-field">
-          <label for="zip">Zip code</label>
-          <input type="text" id="zip" />
-        </div>
-      </div>
-      <div class="m-form-field -half">
-        <div class="a-text-field">
-          <label for="city">City</label>
-          <input type="text" id="city" />
-        </div>
-      </div>
-    </div>
-    <div class="m-form-field">
-      <div class="a-text-field">
-        <label for="country">Country</label>
-        <input type="text" id="country" />
-      </div>
-    </div>
-    <div class="m-form-field">
-      <div class="a-text-field">
-        <label for="email">E-Mail address *</label>
-        <input type="text" id="email" />
-      </div>
-    </div>
-    <h4>Personal password</h4>
-    <div class="m-form-field">
-      <div class="a-text-field a-text-field--password">
-        <label for="password">Password *</label>
-        <input type="password" id="password" />
-        <button type="button" class="a-text-field__icon-password">
-          <i class="a-icon ui-ic-watch-on" title="LoremIpsum"></i>
-        </button>
-      </div>
-    </div>
-    <div class="m-form-field">
-      <div class="a-text-field a-text-field--password">
-        <label for="repeatPasword">Repeat password *</label>
-        <input type="password" id="repeatPasword" />
-        <button type="button" class="a-text-field__icon-password">
-          <i class="a-icon ui-ic-watch-on" title="LoremIpsum"></i>
-        </button>
-      </div>
-    </div>
-    <h4>Asking something</h4>
-    <p>
-      Paragraph Text View standard regular Lorem ipsum dolor sit sadipscing
-      elitr?
-    </p>
-    <div class="m-form-field m-form-field--radio">
-      <div class="a-radio-button">
-        <input type="radio" id="radio-button-1stopt" name="radioSelect" />
-        <label for="radio-button-1stopt">First option</label>
-      </div>
-    </div>
-    <div class="m-form-field m-form-field--radio">
-      <div class="a-radio-button">
-        <input type="radio" id="radio-button-2ndopt" name="radioSelect" />
-        <label for="radio-button-2ndopt">Second option</label>
-      </div>
-    </div>
-    <div class="m-form-field m-form-field--radio">
-      <div class="a-radio-button">
-        <input type="radio" id="radio-button-3rdopt" name="radioSelect" />
-        <label for="radio-button-3rdopt">Third option</label>
-      </div>
-    </div>
-    <h4>Space for your remarks</h4>
     <div class="m-form-field">
       <div class="a-text-area">
-        <label for="poem">Your poem</label>
-        <textarea id="poem"></textarea>
+        <label for="description">Describe your Team*</label>
+        <textarea id="description"></textarea>
       </div>
     </div>
-    <h4>Data protection</h4>
-    <p>
-      Paragraph Text View standard regular Lorem ipsum dolor sit sadipscing
-      elitr?
-    </p>
-    <div class="m-form-field m-form-field--checkbox">
-      <div class="a-checkbox">
-        <input type="checkbox" id="checkbox-agree" />
-        <label for="checkbox-agree">I agree *</label>
+    <h4>Partnered Tech & Use-Cases</h4>
+    <div class="o-form__row">
+      <div class="m-form-field">
+        <div class="a-text-area">
+          <label for="partner">Partner*</label>
+          <textarea id="partner"></textarea>
+        </div>
+      </div>
+      <div class="m-form-field">
+        <div class="a-text-area">
+          <label for="usecase">Use Cases/Tech*</label>
+          <textarea id="usecase"></textarea>
+        </div>
+      </div>
+    </div>
+    <h4>Your Team Logo</h4>
+    <div class="m-form-field">
+      <div class="a-text-area">
+        <label for="prompt">Your Prompt*</label>
+        <textarea id="prompt"></textarea>
+      </div>
+    </div>
+    <div class="m-form-field">
+      <div class="a-text-field">
+        <label for="model">Model Name*</label>
+        <input type="text" id="model" />
+      </div>
+    </div>
+    <div class="m-form-field">
+      <div class="a-file-upload-input">
+        <label for="file-upload-input-1">
+          <i class="a-icon boschicon-bosch-ic-upload" title="upload icon"></i>
+          Choose file*
+        </label>
+        <input id="file-upload-input-1" name="file upload input" type="file" />
+        <div class="a-file-upload-input__preview"><p>No file chosen</p></div>
       </div>
     </div>
     <button
