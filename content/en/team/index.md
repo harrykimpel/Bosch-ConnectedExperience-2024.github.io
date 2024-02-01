@@ -79,7 +79,7 @@ resources:
   {{</ profile >}}
   {{< profile picture="" name="Jakob Cuber" category="New Relic" >}}
   {{</ profile >}}
-  {{< profile picture="" name="Harry Kimpel" category="New Relic" >}}
+  {{< profile picture="../partners/newrelic/harry.png" name="Harry Kimpel" category="New Relic" >}}
   {{</ profile >}}
   {{< profile picture="" name="Peter Busch" category="M/NET" >}}
   {{</ profile >}}
@@ -137,7 +137,6 @@ resources:
   {{</ profile >}}
   {{< profile picture="" name="Heiko Liste" category="Nvidia" >}}
   {{</ profile >}}
-
 
 {{</ columns >}}
 
