@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Hack Coaches"
 description: ""
 date: 2023-08-23T13:52:25+02:00
 lastmod: 2023-08-23T13:52:25+02:00
@@ -7,7 +7,7 @@ draft: false
 images: []
 resources:
 ---
-
+Here you find all the Hack Coaches present at the BCX 2024.
 
 ## Hack MCs
 
@@ -27,7 +27,7 @@ resources:
   Hack Coach GenAI
   {{</ profile >}}
 
-  {{< profile picture="Marco.jpg" name="Marco Gora" category="Bosch Digital" >}}
+  {{< profile picture="Marco.png" name="Marco Gora" category="Bosch Digital" >}}
   Hack Coach GenAI
   {{</ profile >}}
 
