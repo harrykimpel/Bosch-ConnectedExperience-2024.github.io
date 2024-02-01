@@ -9,4 +9,9 @@ resources:
 - name: "logo"
   src: "placeholder_logo.png"
 ---
-description of azure
+
+New Relic helps engineers and developers do their best work every day — using data, not opinions — at every stage of the software lifecycle.
+
+The world’s best engineering teams rely on New Relic to visualize, analyze and troubleshoot their software. New Relic One is the most powerful cloud-based observability platform built to help companies create more perfect software.
+
+<img src=newrelic.png width=200 alt="New Relic" />

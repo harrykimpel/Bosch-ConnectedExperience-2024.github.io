@@ -1,2 +1,30 @@
 {{ $frok := resources.Get "js/frontend-kit.js" }}
+{{ $indexjs := resources.Get "js/index.js" }}
+{{ $fs := resources.Get "js/vendor/flexsearch.js" }}
 <script src="{{ $frok.Permalink }}"></script>
+<script src="{{ $indexjs.Permalink }}"></script>
+<script src="{{ $fs }}"></script>
+<script defer>
+  (() => {
+  {{ $list := where .Site.RegularPages "Type" "not in" (slice "page" "home") -}}
+
+  {{ $len := (len $list) -}}
+
+  {{ range $index, $element := $list -}}
+    index.add(
+      {
+        id: {{ $index }},
+        href: "{{ .RelPermalink }}",
+        title: {{ .Title | jsonify }},
+        {{ with .Description -}}
+          description: {{ . | jsonify }},
+        {{ else -}}
+          description: {{ .Summary | plainify | jsonify }},
+        {{ end -}}
+        content: {{ .Plain | jsonify }}
+      }
+    );
+  {{ end -}}
+  })();
+  
+</script>

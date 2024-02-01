@@ -16,9 +16,19 @@
   url = "/area_plan/"
 
 [[main]]
-  name = "The Team"
+  name = "Hack Coaches"
   weight = 50
-  url = "/team/"
+  url = "/hack_coaches/"
+
+[[main]]
+  name = "Hardware Späti"
+  weight = 60
+  url = "/hardware/"
+
+[[main]]
+  name = "Hack Teams"
+  weight = 100
+  url = "/hack_teams/"
 
 # [[main]]
 #   identifier = "hardware"

@@ -5,6 +5,7 @@ title = "BCX24"
 titleSeparator = "-"
 titleAddition = "Bosch ConnectedExperience"
 description = "General information about the BCX24"
+subBrand = "Bosch Digital"
 
 ## Documentation
 # docsVersion = "0.3"

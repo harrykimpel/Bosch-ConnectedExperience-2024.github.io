@@ -110,3 +110,6 @@ rel  = "sitemap"
   [[module.mounts]]
     source = "node_modules/@hyas/images/layouts"
     target = "layouts"
+  [[module.mounts]]
+    source = "node_modules/@bosch/frontend.kit-npm"
+    target = "assets/js/vendor/frontend-kit"
