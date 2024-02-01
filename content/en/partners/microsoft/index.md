@@ -1,12 +1,12 @@
 ---
-title: "Microsoft Azure"
-description: ""
+title: "Microsoft"
+description: "Microsoft"
 date: 2023-08-23T13:52:06+02:00
 lastmod: 2023-08-23T13:52:06+02:00
 draft: false
 images: []
 resources:
 - name: "logo"
-  src: "azure.png"
+  src: "placeholder_logo.png"
 ---
-description of azure
+description of partner

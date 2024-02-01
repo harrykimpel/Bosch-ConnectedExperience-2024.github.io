@@ -1,13 +1,13 @@
 ---
-title: "New Relic"
-description: ""
+title: "NewRelic"
+description: "NewRelic"
 date: 2023-08-23T13:52:06+02:00
 lastmod: 2023-08-23T13:52:06+02:00
 draft: false
 images: []
 resources:
 - name: "logo"
-  src: "newrelic.png"
+  src: "placeholder_logo.png"
 ---
 
 New Relic helps engineers and developers do their best work every day — using data, not opinions — at every stage of the software lifecycle.
