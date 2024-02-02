@@ -7,6 +7,6 @@ draft: false
 images: []
 resources:
 - name: "logo"
-  src: "placeholder_logo.png"
+  src: "SICK_logo.png"
 ---
 description of partner

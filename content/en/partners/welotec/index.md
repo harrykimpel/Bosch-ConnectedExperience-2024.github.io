@@ -7,6 +7,6 @@ draft: false
 images: []
 resources:
 - name: "logo"
-  src: "placeholder_logo.png"
+  src: "welotec.png"
 ---
-description of partner
+“Welotec GmbH provides modern solutions for industrial applications in the field of edge computing and network communication. These include robust technologies, embedded in an innovative set of management and security systems 
