@@ -7,6 +7,6 @@ draft: false
 images: []
 resources:
 - name: "logo"
-  src: "placeholder_logo.png"
+  src: "dc_logo.png"
 ---
 description of partner

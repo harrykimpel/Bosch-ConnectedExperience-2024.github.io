@@ -1,17 +1,16 @@
 {{ define "main" }}
   {{ $currentSection := .CurrentSection }}
   <div class="a-text">{{ .Content }}</div>
-  <div class="tile-wrapper 2-col">
+  <div class="tile-wrapper 3-col">
     {{ range $i, $e := where .Site.RegularPages.ByTitle "Section" .Section }}
     {{ if in (.RelPermalink | string) $currentSection.RelPermalink }}
-      <div class="a-tile tile-item">
-        <a href="{{ .RelPermalink }}" class="a-tile__link" style="display: flex; align-items: center;">
+      <div class="a-tile tile-item" style="display: flex; align-items: center; justify-content: center;">
+        <a href="{{ .RelPermalink }}" class="a-tile__link" style="display: flex; align-items: center; text-decoration: none;">
           {{ with .Resources.GetMatch "logo" }}
-            <div class="a-image__ratioWrapper" style="padding-top: 5%; flex-shrink: 0;">
-              <img src="{{ .RelPermalink }}" width="175" height="88" />
-            </div>
+            <img src="{{ .RelPermalink }}" style="max-width: 370px; height: auto; object-fit: contain; max-height: 175px;" alt="Company Logo" />
+          {{ else }}
+            <p>No logo available</p>
           {{ end }}
-          <p style="margin-left: 20px;">{{ .Params.description }}</p>
         </a>
       </div>
     {{ end }}
