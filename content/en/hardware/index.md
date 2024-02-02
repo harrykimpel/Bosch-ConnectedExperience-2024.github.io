@@ -20,7 +20,7 @@ hardware:
     available: 1
     comment:
   - item: "Arduino Nano"
-    image: "images/placeholder_logo.png"
+    image: "images/arduino_nano.jpg"
     available: 4
     comment:
   - item: "Board BBC Micro Bit MB158 for Arduino & Raspberry Pi"
