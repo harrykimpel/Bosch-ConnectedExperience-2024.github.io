@@ -1,3 +1,33 @@
 .navbar-brand .colored{
   color: #ED0007;
 }
+
+.hardware_table img {
+  max-width: 200px; /* Set the maximum width for images */
+  height: auto; /* This will ensure the height is scaled proportionally */
+}
+
+.hardware_table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.hardware_table th, .hardware_table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.hardware_table th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+.hardware_table th {
+  cursor: pointer;
+}
+.hardware_table th.asc::after {
+  content: " ↑";
+}
+.hardware_table th.desc::after {
+  content: " ↓";
+}
