@@ -1,0 +1,57 @@
+<head>
+    <!-- other head elements -->
+    <link rel="stylesheet" href="/css/vendor/custom.css">
+</head>
+<script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+      const getCellValue = (tr, idx) => tr.children[idx].innerText || tr.children[idx].textContent;
+    
+      const comparer = (idx, asc) => (a, b) => ((v1, v2) => 
+          v1 !== '' && v2 !== '' && !isNaN(v1) && !isNaN(v2) ? v1 - v2 : v1.toString().localeCompare(v2)
+          )(getCellValue(asc ? a : b, idx), getCellValue(asc ? b : a, idx));
+    
+      // Do the work...
+      document.querySelectorAll('.hardware_table th').forEach(th => th.addEventListener('click', (() => {
+          const table = th.closest('table');
+          const tbody = table.querySelector('tbody');
+          const index = Array.from(th.parentNode.children).indexOf(th);
+          const asc = th.classList.toggle('asc', !th.classList.contains('asc'));
+
+          Array.from(tbody.querySelectorAll('tr'))
+              .sort(comparer(index, asc))
+              .forEach(tr => tbody.appendChild(tr) );
+
+
+              Array.from(th.parentNode.children)
+        .forEach(sibling => {
+            if (sibling !== th) {
+                sibling.classList.remove('asc', 'desc');
+            }
+        });
+
+    th.classList.toggle('desc', !asc);
+      })));
+    });
+</script>
+    
+<table class="hardware_table">
+    <thead>
+      <tr>
+        <th>Item</th>
+        <th>Available</th>
+        <th>Image</th>
+        <th>Comment</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{ range . }}
+      <tr>
+        <td>{{ .item }}</td>
+        <td>{{ .available }}</td>
+        <td><img src="{{ .image }}" alt="{{ .name }}" /></td>
+        <td>{{ .comment }}</td>
+      </tr>
+      {{ end }}
+    </tbody>
+  </table>
+  

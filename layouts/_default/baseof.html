@@ -54,6 +54,13 @@
       {{ block "main" . }}{{ end }}
       </article>
     </div>
+
+    {{ with .Params.hardware }}
+      <div class="e-container">
+        {{ partial "table/hardware_table.html" . }}
+      </div>
+    {{ end }}
+    
     {{ block "sidebar-prefooter" . }}{{ end }}
     {{ block "sidebar-footer" . }}{{ end }}
     {{ partial "footer/footer.html" . }}
