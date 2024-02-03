@@ -24,26 +24,26 @@ hardware:
     available: 4
     comment:
   - item: "Board BBC Micro Bit MB158 for Arduino & Raspberry Pi"
-    image: "images/placeholder_logo.png"
+    image: "images/microbit_board_arduino.jpg"
     available: 3
     comment:
   - item: "Flic - wireless smart button"
-    image: "images/placeholder_logo.png"
+    image: "images/flic_button.jpg"
     available: 1
     comment:
   - item: "LCD 16*2 Characters"
-    image: "images/placeholder_logo.png"
+    image: "images/16x2_lcd_display_1.png"
     available: 21
     comment:
   - item: "USB Cable"
-    image: "images/placeholder_logo.png"
+    image: "images/usb_cable.jpg"
     available: 35
     comment:
   - item: "Digi Longrange RF module"
-    image: "images/placeholder_logo.png"
+    image: "images/digi_long_rang_rf.jpg"
     available: 23
     comment:
-  - item: "Grideye Extension (Infra) board XDX"
+  - item: "Grideye Extension (Infra) board XDK"
     image: "images/placeholder_logo.png"
     available: 4
     comment:
