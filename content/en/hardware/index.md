@@ -44,39 +44,39 @@ hardware:
     available: 23
     comment:
   - item: "Grideye Extension (Infra) board XDK"
-    image: "images/placeholder_logo.png"
+    image: "images/grid_eye_xdk.jpg"
     available: 4
     comment:
   - item: "Grove Pi plus"
-    image: "images/placeholder_logo.png"
+    image: "images/groove_pi_plus.png"
     available: 3
     comment:
   - item: "Grove starter kit Arduino"
-    image: "images/placeholder_logo.png"
+    image: "images/groove_starter_kit.webp"
     available: 1
     comment:
   - item: "LinkIT Smart 7688 DUO"
-    image: "images/placeholder_logo.png"
+    image: "images/linkit_smart_7688.webp"
     available: 1
     comment:
   - item: "Smart Button"
-    image: "images/placeholder_logo.png"
+    image: "images/flic_smart_button.jpg"
     available: 1
     comment:
   - item: "Test Leads set"
     image: "images/placeholder_logo.png"
     available: 3
     comment:
-  - item: "TI Siemplelink Sensor Tag DevPack"
-    image: "images/placeholder_logo.png"
+  - item: "TI Simplelink Sensor Tag DevPack"
+    image: "images/ti_sensor.webp"
     available: 3
     comment:
   - item: "Occulus Quest2"
-    image: "images/placeholder_logo.png"
+    image: "images/quest2.webp"
     available: 2
     comment:
   - item: "Occulus Quest3"
-    image: "images/placeholder_logo.png"
+    image: "images/quest3.webp"
     available: 1
     comment:
   - item: "USB Sticks"
@@ -84,11 +84,11 @@ hardware:
     available: 30
     comment:
   - item: "SD-Karten (micro) 64 GB"
-    image: "images/placeholder_logo.png"
+    image: "images/sd_micro_64gb.webp"
     available: 20
     comment:
   - item: "Raspberry Pi 4 8 GB"
-    image: "images/placeholder_logo.png"
+    image: "images/pi4.jpg"
     available: 20
     comment:
   - item: "3D Drucker"
