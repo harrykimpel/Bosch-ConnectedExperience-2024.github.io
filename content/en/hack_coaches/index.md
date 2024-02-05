@@ -77,7 +77,7 @@ Here you find all the Hack Coaches present at the BCX 2024.
 
   {{< profile picture="/partners/newrelic/heiko.png" name="Heiko Specht" category="New Relic" >}}
   {{</ profile >}}
-  {{< profile picture="" name="Bernd Stransky" category="New Relic" >}}
+  {{< profile picture="/partners/newrelic/bernd.png" name="Bernd Stransky" category="New Relic" >}}
   {{</ profile >}}
   {{< profile picture="/partners/newrelic/harry.png" name="Harry Kimpel" category="New Relic" >}}
   {{</ profile >}}
