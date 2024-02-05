@@ -75,9 +75,9 @@ resources:
 
 {{< columns amount="3" >}}
 
-  {{< profile picture="" name="Kate Bodie" category="New Relic" >}}
+  {{< profile picture="/partners/newrelic/heiko.png" name="Heiko Specht" category="New Relic" >}}
   {{</ profile >}}
-  {{< profile picture="" name="Jakob Cuber" category="New Relic" >}}
+  {{< profile picture="" name="Bernd Stransky" category="New Relic" >}}
   {{</ profile >}}
   {{< profile picture="/partners/newrelic/harry.png" name="Harry Kimpel" category="New Relic" >}}
   {{</ profile >}}
