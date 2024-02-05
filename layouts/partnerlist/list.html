@@ -1,0 +1,19 @@
+{{ define "main" }}
+  {{ $currentSection := .CurrentSection }}
+  <div class="a-text">{{ .Content }}</div>
+  <div class="tile-wrapper 3-col">
+    {{ range $i, $e := where .Site.RegularPages.ByTitle "Section" .Section }}
+    {{ if in (.RelPermalink | string) $currentSection.RelPermalink }}
+      <div class="a-tile tile-item" style="display: flex; align-items: center; justify-content: center;">
+        <a href="{{ .RelPermalink }}" class="a-tile__link" style="display: flex; align-items: center; text-decoration: none;">
+          {{ with .Resources.GetMatch "logo" }}
+            <img src="{{ .RelPermalink }}" style="max-width: 370px; height: auto; object-fit: contain; max-height: 175px;" alt="Company Logo" />
+          {{ else }}
+            <p>No logo available</p>
+          {{ end }}
+        </a>
+      </div>
+    {{ end }}
+    {{ end }}
+  </div>
+{{ end }}

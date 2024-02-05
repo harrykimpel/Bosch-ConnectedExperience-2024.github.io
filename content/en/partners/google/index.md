@@ -1,12 +1,12 @@
 ---
-title: "Google Cloud"
-description: ""
+title: "Google"
+description: "Google"
 date: 2023-08-23T13:52:06+02:00
 lastmod: 2023-08-23T13:52:06+02:00
 draft: false
 images: []
 resources:
 - name: "logo"
-  src: "google.png"
+  src: "placeholder_logo.png"
 ---
-description of google cloud
+description of partner

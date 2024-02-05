@@ -1,3 +1,12 @@
-<button type="button" onclick="window.open('{{ .Get "url" }}', '_blank');" class="a-button a-button--primary -without-icon">
-  <span class="a-button__label">{{ .Get "name" }}</span>
-</button>
+<div class="a-link a-link--button -icon">
+  <a
+    aria-label=""
+    href="{{ .Get "url" }}"
+    target="_self"
+  >
+    {{ with .Get "icon" }}
+      <i class="a-icon boschicon-bosch-ic-{{ . }}" title=""></i>
+    {{ end }}
+    <span>{{ .Get "name" }}</span>
+  </a>
+</div>
