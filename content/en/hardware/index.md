@@ -75,9 +75,9 @@ hardware:
     image: "images/quest2.webp"
     available: 2
     comment:
-  - item: "Occulus Quest3"
-    image: "images/quest3.webp"
-    available: 1
+  - item: "Occulus Quest Pro"
+    image: "images/quest_pro.webp"
+    available: 3
     comment:
   - item: "USB Sticks"
     image: "images/placeholder_logo.png"
